@@ -1,0 +1,60 @@
+@import url("content.css"); 
+@import url('components.css');
+
+html {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  line-height: 1.5em;
+  font-family: 'Catamaran',sans-serif;
+}
+nav {
+  position: fixed;
+  padding: 20px 50px;
+  width: calc(100% - 100px);
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+main {
+  height: calc(100vh - 100px);
+  padding: 100px 0 0;
+  /* border: 1px solid seagreen; */
+}
+.window {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.roller-content {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: 500ms ease;
+  /* transform: translateX(-10px); */
+}
+.content {
+  /* height: 100%; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+a{
+  text-decoration: none;
+}
+

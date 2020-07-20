@@ -1,0 +1,348 @@
+@import url("style.css"); 
+@import url('components.css');
+
+.content-one {
+  display: none;
+    /* background-color: red; */
+  }
+
+.content-one .story {
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding-bottom: 1em;
+}
+
+.content-one p span {
+  font-weight: bold;
+  color: #050550;
+
+}
+
+/* CONTENT TWO WORK */
+
+  .content-two {
+    /* display: block; */
+    /* height: auto; */
+    /* overflow: scroll; */
+    
+    display: none;
+    /* background-color: green; */
+  }
+
+  .content-two p span{
+    display: block;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  
+
+/* threeeeeee */
+
+  .content-three {
+    display: none;
+    /* background-color: black; */
+  }
+
+  .content-three .content-wrapper{
+    /* flex-direction: column; */
+    width: 70%;
+    display: block;
+    /* height: auto; */
+  }
+
+/* Content four  VACANCIES*/
+
+.content-four{
+  display: none;
+}
+.content-four .content-wrapper{
+  color: #000033;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.content-four a{
+  color: #000033;
+}
+
+.text-field.vacancies{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listings {
+  padding-top: 60px;
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: space-between;
+  /* background: #ff7878; */
+  /* border: 2px solid rgba(0, 0, 49, 0.1); */
+}
+
+.vacancy-container{
+  border: 2px solid rgba(0, 0, 49, 0.1);
+  border-radius: 3px;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.role-details {
+  color: #0000339f;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* CONTENT FIVE */
+
+.content-five{
+  background-color: red;
+}
+
+.content-wrapper.five{
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.blog-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.blog-item{
+  width: 270px;
+  height: 365px;
+  /* border: 1px solid white; */
+  background-image: linear-gradient(180deg, rgba(196, 196, 196, 0) 34.31%, #000031c7 74.94%, #000031 99.99%), url('./img/life.png');
+  background-position: center;
+  background-size: cover;
+
+}
+/* CONTENT-SIX  */
+.content-six{
+  display: none;
+  /* background-color: #000033; */
+
+}
+
+.content-six img{
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-left: -100px;
+  margin-bottom: -100px;
+  margin-top: -100px;
+  
+}
+.content-six form div{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.content-six label{
+  display: inline-block;
+  width: 40%;
+}
+
+.content-six input,
+.content-six textarea{
+  border: 1px solid #0000332d;
+  padding: 10px;
+  width: 80%;
+  display: block;
+  border-radius: 2px;
+}
+
+/* .media-container {
+  border: 1px solid red;
+  height: 100%;
+  width: 50%;
+  background-image: url("./img/DSC_1745.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+
+
+.button-div button{
+  background-color: #000033;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  /* position: absolute; */
+}
+
+.contact-dets{
+  padding-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-dets p {
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #000033b0;
+}
+
+
+
+
+
+   /*  */
+  .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid seagreen; */
+  }
+  
+.video-container {
+    position: relative;
+    width: 50%;
+    height: 70%;
+}
+  
+.video-container::before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 56.25%;
+}
+  
+.video-container iframe{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+  
+   
+.text-field{
+    width: 45%;
+    height: 500px;
+    color: #050550;
+}
+
+.page-title{
+    color: #000033;
+    font-size: 2.5em;
+}
+
+.page-body{
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding-bottom: 1em;
+  color: #070744b2;
+}
+
+
+
+/* .content-five .content-wrapper{
+  width: 50%;
+} */
+
+
+/* CONTACT FORM NEW PAGE */
+.body-container{
+  width: 100vw;
+  height: 100vh;
+  /* border: 1px solid green; */
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: unset;
+  padding:0;
+}
+
+.left{
+padding: 200px;
+height: 100%;
+width: 40%;
+/* border: 1px solid red; */
+}
+
+
+.funsho-container{
+  width: 50%;
+  height: 100%;
+  background-image: url('./img/DSC_1745.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.left form div{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.left form {
+  padding-top: 60px;
+
+}
+.left label{
+  display: inline-block;
+  width: 40%;
+}
+
+
+.left input,
+.left textarea{
+  border: 1px solid #0000332d;
+  padding: 15px;
+  width: 80%;
+  display: block;
+  border-radius: 5px;
+
+}
+
+.button-div button{
+  background-color: #000033;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  /* position: absolute; */
+}
+
+.contact-dets{
+  padding-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-dets p {
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #000033b0;
+}
+
+/* END OF SEPERATE CONTACT PAGE  */

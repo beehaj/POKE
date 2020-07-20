@@ -1,0 +1,127 @@
+@import url('style.css');
+@import url('content.css');
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000033;
+    color: white;
+    padding: 16px;
+    min-width: 200px;;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    
+    background-color: #050550;
+  }
+  
+  /* The search field */
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    min-width: 198px;
+    text-align: center;
+    padding: 10px 1px 10px 1px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 100px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color:#000033;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+
+
+/* CONTACT /BRIEF DROPDOWN */
+
+
+.contact-dropbtn {
+    /* background-color: #4CAF50; */
+    border: 1px solid #00003359;
+    color: #000033;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    /* display: none; */
+  }
+
+  
+  
+  .contact-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .contact-dropdown-content {
+    /* display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; */
+    border: 1px solid #00003359;
+    color: #000033;
+    /* padding: 16px; */
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    display: none;
+  }
+/*   
+  .contact-dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contact-dropdown-content a:hover{    
+  
+  background-color: #f1f1f1;
+}
+  
+  .contact-dropdown:hover .contact-dropdown-content {
+        display: block;
+  }
+  
+  .contact-dropdown:hover .dropbtn {
+    background-color: #adadda;
+  } */
